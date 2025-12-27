@@ -21,7 +21,7 @@ It is a small web application that visualizes SpaceX launch data using the publi
 
 ---
 
-## 🎯 Goal
+##  Goal
 
 The goal of this project is to demonstrate:
 - Clean component architecture
@@ -31,7 +31,7 @@ The goal of this project is to demonstrate:
 
 ---
 
-## 🧰 Tech Stack
+##  Tech Stack
 
 - **Next.js (App Router)** – Page structure and server-side data fetching
 - **TypeScript (strict mode)** – Type safety and better developer experience
@@ -40,5 +40,22 @@ The goal of this project is to demonstrate:
 
 ---
 
-## 🗂️ Project Structure
+##  Project Structure
 
+app/
+layout.tsx → Global layout
+page.tsx → Main page (Server Component)
+loading.tsx → Loading state
+error.tsx → Error boundary
+
+components/
+LaunchDashboard → Main container (layout & state)
+LaunchList → Sidebar with launch list
+LaunchDetails → Selected launch information
+Modal → Video/details modal
+
+lib/
+spacex.ts → API fetching logic
+
+types/
+spacex.ts → TypeScript interfaces
