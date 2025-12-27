@@ -14,23 +14,31 @@ pnpm dev
 bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+# SpaceX Mission Control Dashboard 🚀
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+This project was built as part of a frontend technical assessment.  
+It is a small web application that visualizes SpaceX launch data using the public SpaceX API, with a focus on clarity, usability, and maintainable code.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+---
 
-## Learn More
+## 🎯 Goal
 
-To learn more about Next.js, take a look at the following resources:
+The goal of this project is to demonstrate:
+- Clean component architecture
+- Strong TypeScript usage
+- Clear UI/UX decisions
+- Ability to document technical decisions for team collaboration
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## 🧰 Tech Stack
 
-## Deploy on Vercel
+- **Next.js (App Router)** – Page structure and server-side data fetching
+- **TypeScript (strict mode)** – Type safety and better developer experience
+- **Tailwind CSS** – Utility-first styling for consistent UI
+- **SpaceX REST API** – Public API used to retrieve launch data
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## 🗂️ Project Structure
+
